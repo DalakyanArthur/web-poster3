@@ -1,0 +1,293 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Raleway', sans-serif;
+  background-color: #000000;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0 auto;
+  cursor: url('../images/fav.png'), auto;
+}
+
+.block1{
+
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.fish{
+  top: 00vw;
+  left: 0vw;
+  position: absolute;
+  width: 50vw;
+  height: auto;
+
+  transition: 1s;
+}
+
+.fish:hover{
+  width: 55vw;
+  height: auto;
+}
+
+.logo{
+  width: 13.021vw;
+  height: 13.021vw;
+  transition: 1s;
+}
+
+.logo:hover{
+  width: 15vw;
+  height: 15vw;
+  cursor: pointer;
+}
+
+.block2{
+  width: 100vw;
+  height: 140vh;
+  background-image: url(../images/bg.jpg);
+  background-size: auto 1071px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #000000;
+  overflow: hidden;
+
+  transition: 1s;
+}
+
+.text_block2{
+  position: absolute;
+}
+
+
+.text1{
+  font-family: "NeueHaas";
+  font-weight: 400;
+  font-size: 7.083vw;
+  
+  color: #fff;
+}
+
+.text2{
+  font-family: "GreatVibes";
+  font-weight: 400;
+  font-size: 8.646vw;
+  color: #fff;
+
+  margin-top: 1.302vw;
+  margin-left: 1.042vw;
+}
+
+.block3{
+  width: 100vw;
+  height: 100vh;
+ 
+  background-color: #000000;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_block3{
+  display: flex;
+  justify-content: space-between;
+} 
+
+.text3{
+  font-family: "NeueHaas";
+  font-weight: 200;
+  font-size: 1.823vw;
+  
+  color: #545454;
+  margin-top: 5.99vw;
+  margin-left: 3.125vw;
+  
+}
+
+.text4{
+  width: 41.667vw;
+  height: 43.75vw;
+
+  margin-top: 5.99vw;
+  margin-left: 42vw;
+
+  font-family: "NeueHaas";
+  font-weight: 400;
+  font-size: 3.646vw;
+  color: #545454;
+
+  transition: 1s;
+} 
+
+.text4:hover{
+  color: #ffffff;
+}
+
+.block4{
+  width: 100vw;
+  height: 100vh;
+ 
+  background-color: #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .text5{
+  font-family: "NeueHaas";
+  font-weight: 400;
+  font-size: 4.792vw;
+  color: #ffffff;
+
+  opacity: 0;
+} */
+
+.element-animation{
+  font-family: "NeueHaas";
+  font-weight: 400;
+  font-size: 4.792vw;
+  color: #ffffff;
+
+  opacity: 0;
+}
+
+.element-animation.element-show{ 
+  position: relative; 
+  top: -20px; 
+  opacity: 1; 
+  transition-duration: 1.4s; 
+  }
+
+.text5:hover {
+  color: #bfbfbf;
+}
+
+.text6{
+  font-family: "NeueHaas";
+  font-weight: 400;
+  font-size: 4.792vw;
+  color: #ffffff;
+}
+
+.text6:hover {
+  color: #bfbfbf;
+}
+
+.text7{
+  font-family: "NeueHaas";
+  font-weight: 400;
+  font-size: 4.792vw;
+  color: #ffffff;
+}
+
+.text7:hover {
+  color: #bfbfbf;
+}
+
+
+.txt {
+  font-family: "NeueHaas";
+  font-weight: 400;
+  font-size: 4.792vw;
+  color: #ffffff;
+
+  opacity: 0;
+  transition: opacity .5s;
+
+  
+}
+
+.op {
+  opacity: 100;
+}
+
+.block5{
+  width: 100vw;
+  height: 110vh;
+ 
+  background-color: #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_bg{
+
+  margin-top: 5.208vw;
+  width: 80vw;
+  height: auto;
+}
+
+.ball1{
+  position: absolute;
+  width: 20.833vw;
+  height: 20.833vw;
+}
+
+.ball2{
+  position: absolute;
+  width: 10.417vw;
+  height: 10.417vw;
+
+  left: 7.813vw;
+  margin-top: 31.25vw;
+}
+
+.ball3{
+  position: absolute;
+  width: 3.125vw;
+  height: 3.125vw;
+
+  left: 67.708vw;
+  margin-top: -31.25vw;
+}
+
+.block6{
+  width: 100vw;
+ 
+  background-color: #000000;
+}
+
+.info{
+  margin-top: 19.323vw;
+  margin-left: 3.125vw;
+
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.name{
+  font-family: "NeueHaas";
+  font-weight: 200;
+  font-size: 1.823vw;
+  color: #ffffff;
+}
+
+.hse  {
+  font-family: "NeueHaas";
+  font-weight: 200;
+  font-size: 1.823vw;
+  color: #ffffff;
+
+  margin-right: 30px;
+}
+
+.filiver{
+
+  margin-top: 2.604vw;
+  margin-left: 3.125vw;
+  width: 94vw;
+}
